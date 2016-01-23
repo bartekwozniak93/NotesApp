@@ -1,0 +1,28 @@
+{
+  "name": "noteapppw",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.2",
+    "express": "~4.1.1",
+    "mongoose": "^4.3.5",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartekwozniak/notesapppw.git"
+  },
+  "author": "Bartłomiej Woźniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartekwozniak/notesapppw/issues"
+  },
+  "homepage": "https://github.com/bartekwozniak/notesapppw#readme",
+  "description": ""
+}

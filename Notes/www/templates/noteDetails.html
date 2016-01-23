@@ -1,0 +1,33 @@
+<ion-view cache-view="false" view-title="Note Details">
+  <ion-content>
+    <div class="list card">
+
+
+	  <div class="item item-avatar">
+	    <img src="http://www.clker.com/cliparts/9/a/f/7/12161811851928353256jean_victor_balin_icon_bulle.svg.med.png">
+	    <h2>{{note.title}}</h2>
+	    <p>{{note.creationDate}}</p>
+	  </div>
+
+	  <div class="item item-text-wrap">
+		<label class="item item-input">
+		  <textarea ng-model="note.content" name="text" style="disabled: true; width: 100%; height:200px; font-size: 20px;"></textarea>
+		</label>
+	  </div>
+
+
+	  <div class="item item-divider">
+	   <button ng-click="updateNote()" class="button button-positive">
+			Update
+		</button>
+
+		<button ng-click="deleteNote()" class="button button-positive">
+			Delete
+		</button>
+	  </div>
+
+	</div>
+  </ion-content>
+</ion-view>
+
+.

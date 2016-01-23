@@ -1,0 +1,9 @@
+<ion-view cache-view="false" view-title="Notes">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="note in notes" ng-click='checkNote(note.id)'>
+        {{note.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
